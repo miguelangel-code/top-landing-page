@@ -10,7 +10,7 @@
 *::selection {
 	color: white;
 	background-color: black;
-}
+} /* Correct image selection */
 
 body {
 	background-color: #f9faf8;
