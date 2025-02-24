@@ -13,7 +13,7 @@ body {
 
 header {
 	background-color: #371f1f;
-	padding: 10px 40px 40px;
+	padding: 10px 10px 40px;
 	display: flex;
 	flex-direction: column;
 	align-items: center; /* This will allow to center the nav and .header_content */
@@ -94,7 +94,7 @@ nav { /* This will allow to center .nav_list with its reducted width */
 }
 
 .header_img {
-	flex: 1 0 600px;
-	max-width: 40%;
-	border: 1px solid black;
+	flex: 0 1 450px; /* The image starts being this width but can shrink down to 200px */
+    min-width: 200px;
+	border-radius: 15px;
 }
