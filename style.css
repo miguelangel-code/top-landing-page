@@ -41,14 +41,13 @@ nav { /* This will allow to center .nav_list with its reducted width */
 	text-align: center;
 }
 
-
 .logo {
 	margin-right: auto;
 }
 
 .logo img {
 	font-size: 24px;
-	width: 80px;
+	width: 60px;
 }
 
 .nav_list, .header_content {
