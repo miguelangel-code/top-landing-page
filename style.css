@@ -20,7 +20,8 @@ header {
 	background-color: #371f1f;
 	padding: 10px 10px 40px;
 	display: flex;
-	flex-direction: column;
+	flex-flow: row wrap;
+	justify-content: center;
 	align-items: center; /* This will allow to center the nav and .header_content */
 }
 
@@ -33,7 +34,8 @@ header, .header_button, header a { /* Works for p, a and button */
 nav { /* This will allow to center .nav_list with its reducted width */
 	display: flex;
 	justify-content: center;
-	align-self: stretch;
+	align-items: center;
+	width: 100%;
 }
 
 .nav_list {
@@ -42,8 +44,11 @@ nav { /* This will allow to center .nav_list with its reducted width */
 	justify-content: space-between;
 	align-items: center;
 	gap: 20px;
-	width: 62%; /* This will allow to align the .nav_list start and end with .header_content's */
+	flex: 0 1 800px;  /* This sets the .nav_list's width to 800px and lets it shrink down to 520px */
+	min-width: 520px;
 	text-align: center;
+	margin-left: 48px;  /* When the page is at its smallest, these margins align the .nav_list with the .header_content */
+	margin-right: 48px;
 }
 
 .logo {
