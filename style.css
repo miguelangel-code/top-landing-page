@@ -44,11 +44,11 @@ nav { /* This will allow to center .nav_list with its reducted width */
 	justify-content: space-between;
 	align-items: center;
 	gap: 20px;
-	flex: 0 1 800px;  /* This sets the .nav_list's width to 800px and lets it shrink down to 520px */
+	flex: 0 1 830px;  /* This sets the .nav_list's width to 800px and lets it shrink down to 520px */
 	min-width: 520px;
 	text-align: center;
-	margin-left: 48px;  /* When the page is at its smallest, these margins align the .nav_list with the .header_content */
-	margin-right: 48px;
+	margin-left: 44px;  /* When the page is at its smallest, these margins align the .nav_list with the .header_content */
+	margin-right: 44px;
 }
 
 .logo {
