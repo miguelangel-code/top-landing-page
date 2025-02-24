@@ -9,7 +9,7 @@
 
 *::selection {
 	color: white;
-	background-color: black;
+	background-color: rgb(184, 2, 2);
 } /* Correct image selection */
 
 body {
@@ -17,7 +17,7 @@ body {
 }
 
 header {
-	background-color: #371f1f;
+	background-color: #000000;
 	padding: 10px 10px 40px;
 	display: flex;
 	flex-flow: row wrap;
