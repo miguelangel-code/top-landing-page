@@ -48,10 +48,11 @@ nav { /* This will allow to center .nav_list with its reducted width */
 
 .logo img {
 	font-size: 24px;
+	width: 80px;
 }
 
 .nav_list, .header_content {
-	margin: 0 0 60px;
+	margin-bottom: 60px;
 }
 
 .header_content {
