@@ -16,7 +16,7 @@ header {
 	padding: 10px 40px 40px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: center; /* This will allow to center the nav and .header_content */
 }
 
 header, .header_button, header a { /* Works for p, a and button */
@@ -25,7 +25,7 @@ header, .header_button, header a { /* Works for p, a and button */
 	text-decoration: none;
 }
 
-nav {
+nav { /* This will allow to center .nav_list with its reducted width */
 	display: flex;
 	justify-content: center;
 	align-self: stretch;
@@ -37,7 +37,7 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	gap: 20px;
-	width: 62%;
+	width: 62%; /* This will allow to align the .nav_list start and end with .header_content's */
 	text-align: center;
 }
 
@@ -57,7 +57,7 @@ nav {
 .header_content {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center; /* This will allow to center the content */
 	gap: 40px;
 	max-width: 85%;
 }
