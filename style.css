@@ -132,7 +132,7 @@ main {
 	flex-flow: row wrap;
 	justify-content: center;
 	gap: 40px;
-	margin: 40px 60px;
+	margin: 40px 60px 80px;
 }
 
 .album_card {
