@@ -123,7 +123,7 @@ main {
 	margin: 0 50px;
 }
 
-.albums_title, .albums_container {
+.albums_title, .albums_container, .quote {
 	color: #1F2937;
 }
 
@@ -145,4 +145,16 @@ main {
 	border-radius: 12px;
 	margin-bottom: 5px;
 	width: 100%; /* Tells the images to be just the width of the card. Some of them were far bigger. */
+}
+
+.quote {
+	background-color: #ebe5e5;
+	padding: 70px;
+	margin-bottom: 70px;
+}
+
+.quote_p {
+	font-size: 36px;
+	font-weight: lighter;
+	font-style: italic;
 }
