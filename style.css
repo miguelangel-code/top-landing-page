@@ -58,9 +58,10 @@ nav { /* This will allow to center .nav_list with its reducted width */
 	margin-right: auto;
 }
 
-.logo img {
+.logo_img {
 	font-size: 24px;
 	width: 60px;
+	filter: invert(1);
 }
 
 .nav_list, .header_content {
