@@ -12,6 +12,10 @@
 	background-color: rgb(184, 2, 2);
 } /* Correct image selection */
 
+img::selection, .button::selection, .nav_list a::selection, footer::selection {
+	background-color: initial;
+}
+
 body {
 	background-color: #f9faf8;
 }
