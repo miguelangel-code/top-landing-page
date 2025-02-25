@@ -120,6 +120,7 @@ main {
 .albums_title {
 	font-size: 36px;
 	font-weight: 900;
+	margin: 0 50px;
 }
 
 .albums_title, .albums_container {
@@ -131,13 +132,17 @@ main {
 	flex-flow: row wrap;
 	justify-content: center;
 	gap: 40px;
-	margin: 40px;
+	margin: 40px 60px;
+}
+
+.album_card {
+	flex: 1 0 180px;
+	max-width: 210px;
 }
 
 .album_card_img {
 	border: 5px solid #f63838;
 	border-radius: 12px;
-	flex: 1 1 400px;
-	min-width: 120px;
 	margin-bottom: 5px;
+	width: 100%; /* Tells the images to be just the width of the card. Some of them were far bigger. */
 }
