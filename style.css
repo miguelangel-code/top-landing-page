@@ -172,3 +172,17 @@ main {
 	margin-right: 5px;
 	margin-top: 2px;
 }
+
+.spoty {
+	background-color: #f63838;
+	padding: 40px 80px;
+	margin: 0 100px 70px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.spoty_text {
+	text-align: left;
+}
