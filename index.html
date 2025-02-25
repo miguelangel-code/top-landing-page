@@ -86,4 +86,19 @@
 		Copyright © A <img src="images/mutant.png" alt="MUTANT"> 2027
 	</footer>
 </body>
+<script>
+	function adjustNavPaddings() {
+		var nav = document.getElementsByTagName("nav")[0];
+		var header_title = document.getElementsByClassName("header_title")[0];
+		var header_img = document.getElementsByClassName("header_img")[0];
+		var left_padding = header_title.offsetLeft;
+		var right_padding = window.innerWidth - header_img.offsetLeft - header_img.offsetWidth;
+
+		nav.style.paddingLeft = left_padding-10 + "px";
+		nav.style.paddingRight = right_padding-20 + "px";
+	}
+
+	window.addEventListener('load', adjustNavPaddings);
+	window.addEventListener('resize', adjustNavPaddings);
+</script>
 </html>

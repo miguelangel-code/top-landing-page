@@ -39,9 +39,7 @@ header, .button, header a, footer { /* Works for p, a and buttons */
 }
 
 nav { /* This will allow to center .nav_list with its reducted width */
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
 	width: 100%;
 }
 
@@ -51,11 +49,7 @@ nav { /* This will allow to center .nav_list with its reducted width */
 	justify-content: space-between;
 	align-items: center;
 	gap: 20px;
-	flex: 0 1 830px;  /* This sets the .nav_list's width to 800px and lets it shrink down to 520px */
-	min-width: 520px;
 	text-align: center;
-	margin-left: 44px;  /* When the page is at its smallest, these margins align the .nav_list with the .header_content */
-	margin-right: 44px;
 }
 
 .logo {
