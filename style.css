@@ -175,15 +175,24 @@ main {
 	margin-top: 2px;
 }
 
+.spoty_container { /* .spoty shrinks and flexes here */
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
 .spoty {
 	background-color: #f63838;
 	padding: 40px 80px;
-	margin: 0 100px 80px;
+	margin: 0 50px 80px;
+	max-width: 938px;
 	border-radius: 8px;
+	flex: 1 0 537px;
 
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	gap: 50px;
 }
 
 .spoty_text {
