@@ -30,7 +30,7 @@ header {
 
 header, .button, header a, footer { /* Works for p, a and buttons */
 	font-size: 18px;
-	color: #e5e7eb;
+	color: white;
 	text-decoration: none;
 }
 
@@ -200,7 +200,7 @@ main {
 
 .spoty_text {
 	text-align: left;
-	color: #e3e7ec;
+	color: white;
 }
 
 .spoty_title {
@@ -209,7 +209,7 @@ main {
 }
 
 .spoty_button {
-	border: #e5e7eb solid 2px;
+	border: white solid 2px;
 	border-radius: 8px;
 }
 
