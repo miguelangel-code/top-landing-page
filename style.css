@@ -116,3 +116,28 @@ main, footer {
 main {
 	padding-top: 40px;
 }
+
+.albums_title {
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.albums_title, .albums_container {
+	color: #1F2937;
+}
+
+.albums_container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 40px;
+	margin: 40px;
+}
+
+.album_card_img {
+	border: 5px solid #f63838;
+	border-radius: 12px;
+	flex: 1 1 400px;
+	min-width: 120px;
+	margin-bottom: 5px;
+}
