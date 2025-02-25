@@ -108,3 +108,11 @@ nav { /* This will allow to center .nav_list with its reducted width */
     min-width: 200px;
 	border-radius: 15px;
 }
+
+main, footer {
+	text-align: center;
+}
+
+main {
+	padding-top: 40px;
+}
