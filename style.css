@@ -25,7 +25,7 @@ header {
 	align-items: center; /* This will allow to center the nav and .header_content */
 }
 
-header, .header_button, header a { /* Works for p, a and button */
+header, .button, header a { /* Works for p, a and buttons */
 	font-size: 18px;
 	color: #e5e7eb;
 	text-decoration: none;
@@ -87,16 +87,18 @@ nav { /* This will allow to center .nav_list with its reducted width */
 	flex-shrink: 1;
 }
 
-.header_button {
+.button {
 	background-color: #f63838;
 	padding: 7px 25px;
 	flex-shrink: 1;
 	margin-top: 13px; 
+	cursor: pointer;
+}
+
+.header_button {
 	border: none;
 	border-radius: 8px;
 	align-self: flex-start;
-	cursor: pointer;
-	font-size: 18px;
 }
 
 .header_p {
@@ -150,7 +152,7 @@ main {
 .quote {
 	background-color: #ebe5e5;
 	padding: 70px;
-	margin-bottom: 70px;
+	margin-bottom: 80px;
 }
 
 .quote_container {
@@ -176,7 +178,8 @@ main {
 .spoty {
 	background-color: #f63838;
 	padding: 40px 80px;
-	margin: 0 100px 70px;
+	margin: 0 100px 80px;
+	border-radius: 8px;
 
 	display: flex;
 	justify-content: space-between;
@@ -185,4 +188,15 @@ main {
 
 .spoty_text {
 	text-align: left;
+	color: #e3e7ec;
+}
+
+.spoty_title {
+	font-size: 24px;
+	margin-bottom: 3px;
+}
+
+.spoty_button {
+	border: #e5e7eb solid 2px;
+	border-radius: 8px;
 }
